@@ -47,7 +47,7 @@ optional arguments:
 ## DEMO
 This example uses the cascade-delete-3.x script to delete a virtual-network object having UUID "36be345f-499f-49b4-aa29-597e57cee156"
 ```
-python cascade-delete-3.x.py --admin_user admin --admin_password Juniper --admin_tenant_name admin --dry_run 36be345f-499f-49b4-aa29-597e57cee156
+python cascade-delete-3.x.py --admin_user admin --admin_password Juniper --admin_tenant_name admin 6be345f-499f-49b4-aa29-597e57cee156
 
 Graph contains 24 node(s)ce (graph size 24, depth 1)
 Deleting Instance Ip 18c26eec-52f2-445c-8379-67f476f6c2c5
