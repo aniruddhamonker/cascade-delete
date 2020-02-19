@@ -5,6 +5,7 @@ script to dynamically remove child reference objects from contrail config DB
 git clone https://github.com/aniruddhamonker/cascade-delete.git
 
 ## Execution
+```
 cascade-delete-3.x.py [-h] [-c FILE] 
                              [--api_server_ip API_SERVER_IP]
                              [--api_server_port API_SERVER_PORT]
@@ -14,7 +15,9 @@ cascade-delete-3.x.py [-h] [-c FILE]
                              [--openstack_ip OPENSTACK_IP] 
                              [--dry_run]
                              resource_uuid
+```
 ## Options
+```
 $python cascade-delete-3.x.py -h
 usage: 
 
@@ -39,3 +42,4 @@ optional arguments:
   --openstack_ip OPENSTACK_IP
                         IP address of openstack auth node
   --dry_run             Does not really delete any resource
+```
